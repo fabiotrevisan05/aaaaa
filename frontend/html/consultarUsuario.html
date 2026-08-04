@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar</title>
+</head>
+<body>
+
+    <h1>Consultar</h1>
+
+    <nav>
+        <a href="./apagarUsuario.html">Apagar</a><br>
+        <a href="./cadastroUsuario.html">Cadastrar</a><br>
+        <a href="./consultarNome.html">Consultar nome</a>
+    </nav>
+
+    <br>
+
+    <input type="number" id="id" placeholder="ID">
+    <br>
+
+    <button id="btn">Consultar</button>
+
+    <br><br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Senha</th>
+            </tr>
+        </thead>
+
+        <tbody id="resposta"></tbody>
+    </table>
+
+    <script src="../js/consultar.js"></script>
+
+</body>
+</html>

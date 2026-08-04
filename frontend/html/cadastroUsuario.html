@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/prgCadastroUsuario.js"defer></script>
+    <title>Sistema do Banco</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a>Usuario</a>
+            <a href="./cadastroUsuario.html">Cadastrar</a>
+            <a href="./apagarUsuario.html">Deletar</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Cadastro</h1>
+        <br>
+        <form>
+            <label for="nome">Nome do Usuário</label><br>
+            <input type="text" id="nome" placeholder="nome" required><br>
+
+            <label for="email">Email do Usuário</label><br>
+            <input type="text" id="email" placeholder="email" required><br>
+
+            <label for="senha">Senha do Usuário</label><br>
+            <input type="text" id="senha" placeholder="senha" required><br><br>
+            <button type="submit" id="cadastrar">Cadastrar</button><br><br>
+        </form>
+        <div id="resposta"></div>
+    </main>
+</body>
+</html>
